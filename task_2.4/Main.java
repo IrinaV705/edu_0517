@@ -1,14 +1,14 @@
 package com.company;
-
-
 public class Main {
-    public static int sum(int a, int b) {
-        int c = 0;
-        for(int i = a; i <= b; i++){
-            System.out.println(c+=i);
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int sum = 0;
+        for (int i = 0; i < 5; i++) {
+            sum = sum + arr[i];
+            System.out.println(sum);
         }
-        return c;
     }
+}
 /*
 Вывести на экран сумму чисел от 1 до 5 построчно (должно быть 5 строк):
 1
